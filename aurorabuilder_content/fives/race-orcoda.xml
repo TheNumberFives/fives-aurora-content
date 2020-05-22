@@ -68,10 +68,10 @@
             <stat name="innate speed:swim" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
-            <grant type="Language" id="ID_GOTFN_LANGUAGE_ORCODA" />
-            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_BLUBBERY_BODY" />
-            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_HOLD_BREATH" />
-            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ECHOLOCATION" />
+            <grant type="Language" id="ID_FIVES_GOTFN_LANGUAGE_ORCODA" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_BLUBBERY_BODY" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_HOLD_BREATH" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_ECHOLOCATION" />
         </rules>
     </element>
     <element name="Blubbery Body" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_BLUBBERY_BODY">
