@@ -5,7 +5,7 @@
         <description>The Way of Sumo archetype for Monks.</description>
         <author url="https://mfov.magehandpress.com/2019/05/way-of-sumo.html">Mage Hand Press</author>
         <update version="0.1.0">
-            <file name="race-orcoda.xml" url="https://github.com/TheNumberFives/fives-aurora-content/blob/master/aurorabuilder_content/mage-hand-press/sublcass-monk-sumo.xml" / >
+            <file name="race-orcoda.xml" url="https://github.com/TheNumberFives/fives-aurora-content/blob/master/aurorabuilder_content/mage-hand-press/sublcass-monk-sumo.xml" />
         </update>
     </info>
     <element name="Way of Sumo" type="Archetype" source="source" id="ID_MHP_ARCHETYPE_MONK_WAY_OF_SUMO">
