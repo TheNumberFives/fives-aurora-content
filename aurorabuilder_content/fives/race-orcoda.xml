@@ -60,7 +60,7 @@
             <set name="names" type="clan">Orrda, Burdo, Lytyl, Rydyr, Dorbor, Grobos, Kibyl, Pykir, Fordus, Mortur, Uryd, Erdut</set>
 			<set name="names-format">{{birth}} {{clan}}</set>
 			<set name="height" modifier="2d6">6'0"</set>
-			<set name="weight" modifier="5d4">300 lb.</set>
+			<set name="weight" modifier="2d8">300 lb.</set>
         </setters>
         <rules>
             <stat name="constitution" value="2" />
