@@ -23,7 +23,7 @@
     </element>
 
     <!-- Orcoda -->
-    <element name="Orcoda" type="Race" source="source" id="ID_FIVES_GOTFN_RACE_ORCODA">
+    <element name="Orcoda" type="Race" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACE_ORCODA">
         <description>
             <p class="flavor">Those who've wondered to the frozen caps of the world often describe them as wastelands of ice and snow, usually devoid of flora. Those who're born on these frigid lands depend on the local fauna for subsistence and are sometimes known to be fairly cutthroat. Some who've traveled towards these icy planes have mentioned glimpses of a society, one composed of larger, lighthearted beings of black and white.</p>
             <p class="indent">Often coined as the <i>"Giants of the Frigid North"</i>, the lumbering orcoda are a sociable race of orca-like humanoids whose family, friends and girth mean the world to them, working towards their survival in the freezing wasteland they call home.</p>
