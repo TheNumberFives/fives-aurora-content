@@ -44,6 +44,7 @@
             <stat name="sumo:sumodefense armor" value="strength:modifier" />
             <stat name="sumo:sumodefense armor" value="wisdom:modifier" />
             <stat name="ac:calculation" value="sumo:sumodefense armor" bonus="calculation" alt="Natural Armor (Sumo Defense)" />
+        </rules>
     </element>
     <element name="Implacable Stance" type="Archetype Feature" source="source" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_IMPLACABLE_STANCE">
         <description>
