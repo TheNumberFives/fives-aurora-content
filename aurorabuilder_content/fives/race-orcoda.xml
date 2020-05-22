@@ -3,7 +3,10 @@
     <info>
         <name>Giants of the Frigid North</name>
         <description>A killer whale race for 5e hailing from the frigid north!</description>
-        <update version="0.1.0"></update>
+        <author>Fives</author>
+        <update version="0.0.5">
+            <file name="race-orcoda.xml" url="https://github.com/TheNumberFives/fives-aurora-content/blob/master/aurorabuilder_content/fives/race-orcoda.xml" />
+        </update>
     </info>
 
     <element name="Giants of the Frigid North" type="Source" source="Core" id="ID_FIVES_SOURCE_GIANTS_OF_THE_FRIGID_NORTH">
