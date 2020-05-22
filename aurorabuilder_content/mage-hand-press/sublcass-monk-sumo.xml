@@ -64,6 +64,9 @@
         <sheet>
             <description>You gain proficiency in the Intimidation skill. If you already had proficiency in this skill, you can add twice your ability score to ability checks made using it. Additionally, attacks made against you before you have taken a turn in combat have disadvantage.</description>
         </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+        </rules>
     </element>
     <element name="Colossus Slam" type="Archetype Feature" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_COLOSSUS_SLAM">
         <description>
