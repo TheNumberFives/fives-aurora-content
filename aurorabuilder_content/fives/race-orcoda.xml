@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Giants of the Frigid North</name>
+        <description>A killer whale race for 5e hailing from the frigid north!</description>
+        <update version="0.1.0"></update>
+    </info>
+
+    <element name="Giants of the Frigid North" type="Source" source="Core" id="ID_FIVES_SOURCE_GIANTS_OF_THE_FRIGID_NORTH">
+        <description>
+            <![CDATA[<p>Big And Resiliant!</p>
+            <p><em>A killer whale race for 5e hailing from the frigid north!</em></p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">GOTFN</set>
+            <set name="author" abbreviation="FIVES">Fives</set>
+            <set name="homebrew">true</set>
+            <set name="release">20200522</set>
+        </setters>
+    </element>
+
+    <!-- Orcoda -->
+    <element name="Orcoda" type="Race" source="source" id="ID_FIVES_GOTFN_RACE_ORCODA">
+        <description>
+            <p class="flavor">Those who've wondered to the frozen caps of the world often describe them as wastelands of ice and snow, usually devoid of flora. Those who're born on these frigid lands depend on the local fauna for subsistence and are sometimes known to be fairly cutthroat. Some who've traveled towards these icy planes have mentioned glimpses of a society, one composed of larger, lighthearted beings of black and white.</p>
+            <p class="indent">Often coined as the <i>"Giants of the Frigid North"</i>, the lumbering orcoda are a sociable race of orca-like humanoids whose family, friends and girth mean the world to them, working towards their survival in the freezing wasteland they call home.</p>
+            <h4>SOCIAL STRUCTURES</h4>
+            <p>The orcoda are a highly sociable race, often traveling together in groups of three or four during the day, typically foraging for food and materials.</p>
+            <p class="indent">During times of low stress, orcodas tend to mingle with each other, chatting with each other and even playing with each other, their environment and the local fauna. While some are known to play fair, others have been known to play wildly with reckless abandon.</p>
+            <p class="indent">The orcoda have also been known to be fairly curious to the world around them, often examining, playing or even collecting objects that're unfamiliar to them. Orconian weapons, tools and armor are often made with materials harvested from other creatures, such as bone, leather and fur. They sometimes even incorporate objects or materials they've collected.</p>
+            <p class="indent">Some orcodian clans have been known to form trading routes with other marine-based races, such as the triton. Many who have met an orcoda sometimes compared them to the darfellan. Despite the similarities the both share, the connection between the orcoda and the darfellan are subjective at most.</p>
+            <h4>FAMILIAL BONDS</h4>
+            <p>To the orcoda, nothing is more important than family. During the evening, the orcoda return to their families of three to six. These family groups, or "pods", are based on matrilines and usually consists of the eldest female, the matriarch, and her sons and daughters, the descendants of her daughters, etc. These matrilineal groups are highly stable and can have as many as four generations in a single pod.</p>
+            <p class="indent">During the day, the adults leave the pod in search for food while the elders and mothers stay back to defend their home from intruders and care for the children. When an orcoda reaches the age of 10, they're able to join their adults during the day.</p>
+            <p class="indent">Some female orcodas have been known to splinter off from their matrilines to form their own around the age of 20. The males are also known to nearly always mate with females from other pods. There are even cases where orcoda splinter off from their families to live with their friends, forming circles.</p>
+            <h4>PRIDE IN SIZE</h4>
+            <p>One of the major prides for the orcoda is in their large bodies and is intrinsically linked into their culture. The weight of an orcoda can be seen as a sign of great accomplishment, bountiful health or strength. The Grand Mother, the orcodian goddess of family and harvest, is often depicted as being quite large in scale and heft. The size of an orcoda is even used to determine hierarchy in male-dominated circles, with the heaviest male typically being the leader.</p>
+            <p class="indent">Their pride in their own girth helps contribute to their love for food as well. Orcodas are foragers at heart due to the harsh environment of their arctic homeland. They're omnivores, but their diets heavily incorporate meats and fish to fuel their large bodies due to how scarce edible plant life is up north. Whenever an orcoda is introduced into an environment outside of their own icy home, they immediately take interest in the unfamiliar food they come across, egging to have a taste for themselves. Their love for food has even led to some orcodas adopting careers in culinary, such as cooks, butchers and gourmands.</p>
+            <p class="indent">There are some drawbacks to the orcoda's naturally bulky physiques. Their large bodies makes them cumbersome in more enclosed spaces, as Orcoda-made structures were made to accommodate their bodies with large, open areas and broad doorways. In addition, orcoda corpses are known to explode in a mess of gore a week after death due to a buildup of gas from decomposing.</p>
+            <h4>THE ORCODIAN TONGUE</h4>
+            <p>The orcoda have a language comprised of high pitched clicks, whistles and pulsed calls that're normally not audible to most creatures. Because it is a primarily vocal language, there is no written portion to the Orcodian language.</p>
+            <h4>ORCODA TRAITS</h4>
+            <p>Your orcoda character has an assortment of inborn abilities, part and parcel of orcodian nature.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Orcodas reach maturity around age 15 and can live up 80 years.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Most orcoda are true neutral or have some aspect of neutrality in their alignment. Their familial and social bonds push them towards good, while some have been known to teeter between neutral and chaotic from how wild they can be from their play and competitiveness.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Orcodas are between 6 and 7 feet tall and weigh between 250 and 500 pounds. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.</p>
+            <p class="indent"><strong><em>Blubbery Body.</em></strong> Your thick layer of fat helps insulate you in colder climates and grants you resistance against ice and bludgeoning damage.</p>
+            <p class="indent"><strong><em>Hold Breath.</em></strong> You can hold your breath for up to 15 minutes at a time.</p>
+            <p class="indent"><strong><em>Echolocation.</em></strong> Your Perception checks are not affected by lightly or heavily obscured areas unless you are deafened. You can use it to detect shape, location and material, but not things like color, written language, etc.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Common and speak Orcoda, a primarily spoken language which is only audible to your species.</p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="birth">Ko'ou, Tyk, Whall, Gore, Iy, Bo'od, Urre, Nor, Whyt, Yore, Kyi, Beey, Ky'yd, Tyr, Qyp, Hor, Yt</set>
+            <set name="names" type="clan">Orrda, Burdo, Lytyl, Rydyr, Dorbor, Grobos, Kibyl, Pykir, Fordus, Mortur, Uryd, Erdut</set>
+			<set name="names-format">{{birth}} {{clan}}</set>
+			<set name="height" modifier="2d6">6'0"</set>
+			<set name="weight" modifier="4d4">300 lb.</set>
+        </setters>
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <stat name="innate speed:swim" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_GOTFN_LANGUAGE_ORCODA" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_BLUBBERY_BODY" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_HOLD_BREATH" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ECHOLOCATION" />
+        </rules>
+    </element>
+    <element name="Blubbery Body" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_BLUBBERY_BODY">
+        <description>
+            <p>Your thick layer of fat helps insulate you in colder climates and grants you resistance against ice and bludgeoning damage.</p>
+        </description>
+        <sheet>
+            <description>Your thick layer of fat helps insulate you in colder climates and grants you resistance against ice and bludgeoning damage.</description>
+        </sheet>
+    </element>
+    <element name="Hold Breath" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_HOLD_BREATH">
+        <description>
+            <p>You can hold your breath for up to 15 minutes at a time.</p>
+        </description>
+        <sheet>
+            <description>You can hold your breath for up to 15 minutes at a time.</description>
+        </sheet>
+    </element>
+    <element name="Echolocation" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_ECHOLOCATION">
+        <description>
+            <p>Your Perception checks are not affected by lightly or heavily obscured areas unless you are deafened. You can use it to detect shape, location and material, but not things like color, written language, etc.</p>
+        </description>
+        <sheet>
+            <description>Your Perception checks are not affected by lightly or heavily obscured areas unless you are deafened. You can use it to detect shape, location and material, but not things like color, written language, etc.</description>
+        </sheet>
+    </element>
+
+    <!-- Orcoda Language -->
+    <element name="Orcoda" type="Language" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_LANGUAGE_ORCODA">
+        <description>
+            <p>A vocal only language typically spoken by the Orcoda. It's comprised of a series of clicks, whistles and pulsed calls that aren't normally audible to most creatures. There is no written portion of this language.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Orcoda</set>
+            <set name="script">N/A</set>
+        </setters>
+    </element>
+
+</elements>
