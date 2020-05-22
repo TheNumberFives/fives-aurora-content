@@ -5,10 +5,10 @@
         <description>The Way of Sumo archetype for Monks.</description>
         <author url="https://mfov.magehandpress.com/2019/05/way-of-sumo.html">Mage Hand Press</author>
         <update version="0.1.0">
-            <file name="race-orcoda.xml" url="https://github.com/TheNumberFives/fives-aurora-content/blob/master/aurorabuilder_content/mage-hand-press/sublcass-monk-sumo.xml" />
+            <file name="subclass-monk-sumo.xml" url="https://github.com/TheNumberFives/fives-aurora-content/blob/master/aurorabuilder_content/mage-hand-press/sublcass-monk-sumo.xml" />
         </update>
     </info>
-    <element name="Way of Sumo" type="Archetype" source="source" id="ID_MHP_ARCHETYPE_MONK_WAY_OF_SUMO">
+    <element name="Way of Sumo" type="Archetype" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_MONK_WAY_OF_SUMO">
         <supports>Monastic Tradition</supports>
         <description>
             <p>Sumo is the ultimate contest of might, a bout where two enter a ring and only one remains within it seconds later. The Way of Sumo teaches its students to stand their ground and maintain perfect discipline and form to meet whatever challenge they face. In contrast to other monks, who are typically lithe and nimble, sumo wrestlers are rotund and rippling with muscle, a necessity for grappling with the mightiest contenders of the sport without surrendering any ground.</p>
@@ -18,9 +18,6 @@
             <div element="ID_MHP_ARCHETYPE_FEATURE_SUMO_COLOSSUS_SLAM" level="11"/>
             <div element="ID_MHP_ARCHETYPE_FEATURE_SUMO_YOKOZUNA" level="17"/>
         </description>
-        <setters>
-            <set name="sourceUrl">https://mfov.magehandpress.com/2019/05/way-of-sumo.html</set>
-        </setters>
         <sheet>
             <description>Sumo is the ultimate contest of might, a bout where two enter a ring and only one remains within it seconds later.</description>
         </sheet>
@@ -32,7 +29,7 @@
             <grant type="Archetype Feature" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_YOKOZUNA" level="17" />
         </rules>
     </element>
-    <element name="Sumo Defense" type="Archetype Feature" source="source" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_SUMO_DEFENSE">
+    <element name="Sumo Defense" type="Archetype Feature" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_SUMO_DEFENSE">
         <description>
             <p>Starting when you choose this tradition at 3rd level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Strength modifier + your Wisdom modifier.</p>
         </description>
@@ -46,7 +43,7 @@
             <stat name="ac:calculation" value="sumo:sumodefense armor" bonus="calculation" alt="Natural Armor (Sumo Defense)" />
         </rules>
     </element>
-    <element name="Implacable Stance" type="Archetype Feature" source="source" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_IMPLACABLE_STANCE">
+    <element name="Implacable Stance" type="Archetype Feature" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_IMPLACABLE_STANCE">
         <description>
             <p>At 3rd level, if you move 5 feet or less on your turn, you can anchor your heels into the ground. Until the beginning of your next turn, you can't be moved against your will. Additionally, for the duration, you can spend a ki point whenever you take damage to reduce the damage taken by 1d8.</p>
             <p class="indent">Additionally, you are considered one size larger for the purposes of grappling and have advantage on Strength checks.</p>
@@ -59,7 +56,7 @@
             <stat name="sumo implacable stance:die:count" value="1" />
         </rules>
     </element>
-    <element name="Huge Presence" type="Archetype Feature" source="source" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_HUGE_PRESENCE">
+    <element name="Huge Presence" type="Archetype Feature" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_HUGE_PRESENCE">
         <description>
             <p>By 6th level, your enormous silhouette causes even hardened warriors to take pause. You gain proficiency in the Intimidation skill. If you already had proficiency in this skill, you can add twice your ability score to ability checks made using it.</p>
             <p class="indent">Additionally, attacks made against you before you have taken a turn in combat have disadvantage.</p>
@@ -68,7 +65,7 @@
             <description>You gain proficiency in the Intimidation skill. If you already had proficiency in this skill, you can add twice your ability score to ability checks made using it. Additionally, attacks made against you before you have taken a turn in combat have disadvantage.</description>
         </sheet>
     </element>
-    <element name="Colossus Slam" type="Archetype Feature" source="source" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_COLOSSUS_SLAM">
+    <element name="Colossus Slam" type="Archetype Feature" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_COLOSSUS_SLAM">
         <description>
             <p>Beginning at 11th level, you can drop your full weight on a foe like a falling meteorite. Once on each of your turns when you make a unarmed strike, you can deal twice the number of damage dice on a hit, but also knock yourself prone after the attack.</p>
         </description>
@@ -76,7 +73,7 @@
             <description>You can drop your full weight on a foe like a falling meteorite. Once on each of your turns when you make a unarmed strike, you can deal twice the number of damage dice on a hit, but also knock yourself prone after the attack.</description>
         </sheet>
     </element>
-    <element name="Yokozuna" type="Archetype Feature" source="source" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_YOKOZUNA">
+    <element name="Yokozuna" type="Archetype Feature" source="Mage Hand Press" id="ID_MHP_ARCHETYPE_FEATURE_SUMO_YOKOZUNA">
         <description>
             <p>By 17th level, you are a master of the art of sumo, an unmovable titan. Whenever you take damage, you can expend any number of ki points to reduce the damage by 1d8 per ki point expended.</p>
         </description>

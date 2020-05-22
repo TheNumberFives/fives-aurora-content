@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Orcoda</name>
+        <name>Giants of the Frigid North</name>
         <description>A killer whale race for 5e hailing from the frigid north!</description>
         <author>Fives</author>
         <update version="0.0.5">
             <file name="race-orcoda.xml" url="https://github.com/TheNumberFives/fives-aurora-content/blob/master/aurorabuilder_content/fives/race-orcoda.xml" />
         </update>
     </info>
+
+    <element name="Giants of the Frigid North" type="Source" source="Core" id="ID_FIVES_SOURCE_GIANTS_OF_THE_FRIGID_NORTH">
+        <description>
+            <![CDATA[<p>Big And Resiliant!</p>
+            <p><em>A killer whale race for 5e hailing from the frigid north!</em></p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">GOTFN</set>
+            <set name="url">https://github.com/TheNumberFives/fives-aurora-content/tree/master/aurorabuilder_content/fives</set>
+            <set name="author" abbreviation="FIVES">Fives</set>
+            <set name="homebrew">true</set>
+        </setters>
+    </element>
 
     <!-- Orcoda -->
     <element name="Orcoda" type="Race" source="source" id="ID_FIVES_GOTFN_RACE_ORCODA">
