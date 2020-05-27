@@ -25,7 +25,7 @@
     <!-- Orcoda -->
     <element name="Orcoda" type="Race" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACE_ORCODA">
         <description>
-            <p class="flavor">Those who've wondered to the frozen caps of the world often describe them as wastelands of ice and snow, usually devoid of flora. Those who're born on these frigid lands depend on the local fauna for subsistence and are sometimes known to be fairly cutthroat. Some who've traveled towards these icy planes have mentioned glimpses of a society, one composed of larger, lighthearted beings of black and white.</p>
+            <p class="flavor">Those who've wondered to the frozen caps of the world often describe them as wastelands of ice and snow, usually devoid of flora. Those who're born on these frigid lands depend on the local fauna for subsistence and are sometimes known to be fairly cutthroat. Some who've traveled towards these icy planes have mentioned glimpses of a society, one composed of large, lighthearted and gentle-faced beings of black and white.</p>
             <p class="indent">Often coined as the <i>"Giants of the Frigid North"</i>, the lumbering orcoda are a sociable race of orca-like humanoids whose family, friends and girth mean the world to them, working towards their survival in the freezing wasteland they call home.</p>
             <h4>SOCIAL STRUCTURES</h4>
             <p>The orcoda are a highly sociable race, often traveling together in groups of three or four during the day, typically foraging for food and materials.</p>
@@ -38,7 +38,7 @@
             <p class="indent">Some female orcodas have been known to splinter off from their matrilines to form their own around the age of 20. The males are also known to nearly always mate with females from other pods. There are even cases where orcoda splinter off from their families to live with their friends, forming circles.</p>
             <h4>PRIDE IN SIZE</h4>
             <p>One of the major prides for the orcoda is in their large bodies and is intrinsically linked into their culture. The weight of an orcoda can be seen as a sign of great accomplishment, bountiful health or strength. The Grand Mother, the orcodian goddess of family and harvest, is often depicted as being quite large in scale and heft. The size of an orcoda is even used to determine hierarchy in male-dominated circles, with the heaviest male typically being the leader.</p>
-            <p class="indent">Their pride in their own girth helps contribute to their love for food as well. Orcodas are foragers at heart due to the harsh environment of their arctic homeland. They're omnivores, but their diets heavily incorporate meats and fish to fuel their large bodies due to how scarce edible plant life is up north. Whenever an orcoda is introduced into an environment outside of their own icy home, they immediately take interest in the unfamiliar food they come across, egging to have a taste for themselves. Their love for food has even led to some orcodas adopting careers in culinary, such as cooks, butchers and gourmands.</p>
+            <p class="indent">Their pride in their own girth helps contribute to their love for food as well. Orcodas are foragers at heart due to the harsh environment of their arctic homeland. They're omnivores, but their diets heavily incorporate meats and fish to fuel their large bodies due to how scarce edible plant life is up north. Whenever an native orcoda is introduced into an environment outside of their own icy home, they immediately take interest in the unfamiliar food they come across, egging to have a taste for themselves. Their love for food has even led to some orcodas adopting careers in culinary, such as cooks, butchers and gourmands.</p>
             <p class="indent">There are some drawbacks to the orcoda's naturally bulky physiques. Their large bodies makes them cumbersome in more enclosed spaces, as Orcoda-made structures were made to accommodate their bodies with large, open areas and broad doorways. In addition, orcoda corpses are known to explode in a mess of gore a week after death due to a buildup of gas from decomposing.</p>
             <h4>THE ORCODIAN TONGUE</h4>
             <p>The orcoda have a language comprised of high pitched clicks, whistles and pulsed calls that're normally not audible to most creatures. Because it is a primarily vocal language, there is no written portion to the Orcodian language.</p>
@@ -83,7 +83,7 @@
             <description>Your thick layer of fat helps insulate you in colder climates and grants you resistance against cold and bludgeoning damage.</description>
         </sheet>
     </element>
-    <element name="Powerful Build" type="Racial Trait" source="Giants of the Frigid North" id=""ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_POWERFUL_BUILD>
+    <element name="Powerful Build" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_POWERFUL_BUILD">
         <description>
             <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
         </description>
