@@ -70,6 +70,7 @@
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_FIVES_GOTFN_LANGUAGE_ORCODA" />
             <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_BLUBBERY_BODY" />
+            <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_POWERFUL_BUILD" />
             <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_HOLD_BREATH" />
             <grant type="Racial Trait" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_ECHOLOCATION" />
         </rules>
@@ -81,6 +82,17 @@
         <sheet>
             <description>Your thick layer of fat helps insulate you in colder climates and grants you resistance against ice and bludgeoning damage.</description>
         </sheet>
+    </element>
+    <element name="Powerful Build" type="Racial Trait" source="Giants of the Frigid North" id=""ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_POWERFUL_BUILD>
+        <description>
+            <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+        </description>
+        <sheet>
+            <description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
     </element>
     <element name="Hold Breath" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_HOLD_BREATH">
         <description>
