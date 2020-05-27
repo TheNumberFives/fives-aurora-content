@@ -11,7 +11,7 @@
 
     <element name="Giants of the Frigid North" type="Source" source="Core" id="ID_FIVES_SOURCE_GIANTS_OF_THE_FRIGID_NORTH">
         <description>
-            <![CDATA[<p>Big And Resiliant!</p>
+            <![CDATA[<p><strong>Big And Resiliant!</strong></p>
             <p><em>A killer whale race for 5e hailing from the frigid north!</em></p>]]>
         </description>
         <setters>
@@ -77,10 +77,10 @@
     </element>
     <element name="Blubbery Body" type="Racial Trait" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_BLUBBERY_BODY">
         <description>
-            <p>Your thick layer of fat helps insulate you in colder climates and grants you resistance against ice and bludgeoning damage.</p>
+            <p>Your thick layer of fat helps insulate you in colder climates and grants you resistance against cold and bludgeoning damage.</p>
         </description>
         <sheet>
-            <description>Your thick layer of fat helps insulate you in colder climates and grants you resistance against ice and bludgeoning damage.</description>
+            <description>Your thick layer of fat helps insulate you in colder climates and grants you resistance against cold and bludgeoning damage.</description>
         </sheet>
     </element>
     <element name="Powerful Build" type="Racial Trait" source="Giants of the Frigid North" id=""ID_FIVES_GOTFN_RACIAL_TRAIT_ORCODA_POWERFUL_BUILD>
