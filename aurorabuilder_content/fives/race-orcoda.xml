@@ -122,4 +122,77 @@
             <set name="script">N/A</set>
         </setters>
     </element>
+
+    <!-- Orcoda Racial Feats -->
+    <element name="Heavyweight" type="Feat" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_FEAT_HEAVYWEIGHT">
+        <prerequisite>Orcoda</prerequisite>
+		<requirements>ID_FIVES_GOTFN_RACE_ORCODA</requirements>
+        <description>
+            <p>Your size and generous serving sizes has made you quite heavy. You gain the folloing benefits:</p>
+			<ul>
+				<li>Increase your Constitution by 1, to a maximum of 20.</li>
+				<li>Medium or smaller creatures are unable to push or pull you against your will. In addition, if a Medium or smaller creature is grappling you, they cannot move.</li>
+				<li>Optional: Add an additional 5d20 lbs. to your Orcoda character's weight.</li>
+			</ul>
+        </description>
+        <sheet>
+            <description>Medium or smaller creatures are unable to push or pull you against your will. In addition, if a Medium or smaller creature is grappling you, they cannot move.</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+    <element name="Cetacean Swimmer" type="Feat" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_FEAT_CETACEAN_SWIMMER">
+        <prerequisite>Orcoda</prerequisite>
+		<requirements>ID_FIVES_GOTFN_RACE_ORCODA</requirements>
+        <description>
+            <p>You've grown more accustomed to riding the waves. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity by 1, to a maximum of 20.</li>
+                <li>You can now swim an additional 15 ft. per turn.</li>
+                <li>You can move across bodies of water at remarkable speeds. You double all overland movement in lakes, oceans or rivers. Furthermore, you can swim for days on end. Replaces the word hour with day for Forced March, as described in chapter 8 of the Player’s Handbook.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You can move across bodies of water at remarkable speeds. You double all overland movement in lakes, oceans or rivers. Furthermore, you can swim for days on end. Replaces the word hour with day for Forced March, as described in chapter 8 of the Player’s Handbook.</description>
+        </sheet>
+        <rules>
+            <stat name="dexterity" value="1" />
+            <stat name="innate speed:swim:misc" value="15" requirements="[innate speed:swim:1]" />
+        </rules>
+    </element>
+    <element name="Hunter's Jaw" type="Feat" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_FEAT_HUNTERS_JAW">
+        <prerequisite>Orcoda</prerequisite>
+		<requirements>ID_FIVES_GOTFN_RACE_ORCODA</requirements>
+        <description>
+            <p>You become more attuned to your great ancestors' hunting traditions. You gain the following benefits:</p>
+            <ul>
+                <li>You can now grapple creatures with your maw. When doing so, you deal piercing damage equal to 1d6 + your Strength modifier.</li>
+                <li>If you're grappling a Medium or smaller creature with your maw, you can fling them at a distance equal to half your base movement speed.</li>
+                <li>You can also now use your maw as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You can use your maw to grapple creatures, dealing 1d6+{{orcoda bite:damage}} piercing damage, and throw them at {{orcoda bite:distance}} ft. You may also use your maw as a natural weapon, dealing 1d6+{{orcoda bite:damage}} piercing damage.</description>
+        </sheet>
+        <rules>
+			<stat name="orcoda bite:damage" value="strength:modifier" />
+            <stat name="orcoda bite:distance" value="speed * 0.5" />
+		</rules>
+    </element>
+    <element name="Apex Predator" type="Feat" source="Giants of the Frigid North" id="ID_FIVES_GOTFN_FEAT_APEX_PREDATOR">
+        <prerequisite>Orcoda</prerequisite>
+		<requirements>ID_FIVES_GOTFN_RACE_ORCODA</requirements>
+        <description>
+            <p>You’ve become a much more competent hunter in the water. You gain the following benefits:
+            <ul>
+                <li>You now have advantage with attacks, Athletic (Strength) checks, Acrobatics (Dexterity) checks and Animal Handling (Wisdom) checks when submerged underwater.</li>
+                <li>You can now breathe an additional 15 minutes underwater.</li>
+            </ul></p>
+        </description>
+        <sheet>
+            <description>You have advantage with attacks, Athletic checks, Acrobatics checks and Animal Handling checks when submerged underwater. You can also now breathe 30 minutes underwater.</description>
+        </sheet>
+    </element>
+    
 </elements>
